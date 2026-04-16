@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0FA3D6DB-699C-3157-AC13-EB57E085F0F0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>polyscope</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\KENDY\Desktop\TDOA i GA\build\polyscope\src\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">polyscope.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">polyscope</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\KENDY\Desktop\TDOA i GA\build\polyscope\src\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">polyscope.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">polyscope</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\KENDY\Desktop\TDOA i GA\build\polyscope\src\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">polyscope.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">polyscope</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\KENDY\Desktop\TDOA i GA\build\polyscope\src\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">polyscope.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">polyscope</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\..\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\imgui;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\custom_backends;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\implot;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\ImGuizmo;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glm;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glfw\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glad\src\..\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\stb\.;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\json\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\MarchingCubeCpp\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\IconFontCppHeaders\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;POLYSCOPE_BACKEND_OPENGL3_ENABLED;POLYSCOPE_BACKEND_OPENGL3_GLFW_ENABLED;POLYSCOPE_BACKEND_OPENGL_MOCK_ENABLED;NOMINMAX;GLM_ENABLE_EXPERIMENTAL;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;POLYSCOPE_BACKEND_OPENGL3_ENABLED;POLYSCOPE_BACKEND_OPENGL3_GLFW_ENABLED;POLYSCOPE_BACKEND_OPENGL_MOCK_ENABLED;NOMINMAX;GLM_ENABLE_EXPERIMENTAL;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\..\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\imgui;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\custom_backends;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\implot;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\ImGuizmo;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glm;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glfw\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glad\src\..\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\stb\.;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\json\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\MarchingCubeCpp\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\IconFontCppHeaders\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\..\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\imgui;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\custom_backends;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\implot;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\ImGuizmo;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glm;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glfw\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glad\src\..\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\stb\.;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\json\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\MarchingCubeCpp\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\IconFontCppHeaders\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\..\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\imgui;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\custom_backends;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\implot;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\ImGuizmo;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glm;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glfw\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glad\src\..\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\stb\.;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\json\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\MarchingCubeCpp\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\IconFontCppHeaders\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;POLYSCOPE_BACKEND_OPENGL3_ENABLED;POLYSCOPE_BACKEND_OPENGL3_GLFW_ENABLED;POLYSCOPE_BACKEND_OPENGL_MOCK_ENABLED;NOMINMAX;GLM_ENABLE_EXPERIMENTAL;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;POLYSCOPE_BACKEND_OPENGL3_ENABLED;POLYSCOPE_BACKEND_OPENGL3_GLFW_ENABLED;POLYSCOPE_BACKEND_OPENGL_MOCK_ENABLED;NOMINMAX;GLM_ENABLE_EXPERIMENTAL;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\..\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\imgui;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\custom_backends;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\implot;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\ImGuizmo;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glm;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glfw\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glad\src\..\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\stb\.;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\json\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\MarchingCubeCpp\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\IconFontCppHeaders\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\..\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\imgui;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\custom_backends;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\implot;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\ImGuizmo;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glm;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glfw\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glad\src\..\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\stb\.;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\json\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\MarchingCubeCpp\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\IconFontCppHeaders\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\..\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\imgui;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\custom_backends;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\implot;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\ImGuizmo;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glm;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glfw\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glad\src\..\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\stb\.;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\json\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\MarchingCubeCpp\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\IconFontCppHeaders\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;POLYSCOPE_BACKEND_OPENGL3_ENABLED;POLYSCOPE_BACKEND_OPENGL3_GLFW_ENABLED;POLYSCOPE_BACKEND_OPENGL_MOCK_ENABLED;NOMINMAX;GLM_ENABLE_EXPERIMENTAL;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;POLYSCOPE_BACKEND_OPENGL3_ENABLED;POLYSCOPE_BACKEND_OPENGL3_GLFW_ENABLED;POLYSCOPE_BACKEND_OPENGL_MOCK_ENABLED;NOMINMAX;GLM_ENABLE_EXPERIMENTAL;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\..\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\imgui;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\custom_backends;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\implot;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\ImGuizmo;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glm;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glfw\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glad\src\..\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\stb\.;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\json\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\MarchingCubeCpp\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\IconFontCppHeaders\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\..\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\imgui;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\custom_backends;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\implot;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\ImGuizmo;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glm;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glfw\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glad\src\..\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\stb\.;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\json\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\MarchingCubeCpp\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\IconFontCppHeaders\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\..\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\imgui;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\custom_backends;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\implot;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\ImGuizmo;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glm;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glfw\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glad\src\..\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\stb\.;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\json\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\MarchingCubeCpp\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\IconFontCppHeaders\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;POLYSCOPE_BACKEND_OPENGL3_ENABLED;POLYSCOPE_BACKEND_OPENGL3_GLFW_ENABLED;POLYSCOPE_BACKEND_OPENGL_MOCK_ENABLED;NOMINMAX;GLM_ENABLE_EXPERIMENTAL;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;POLYSCOPE_BACKEND_OPENGL3_ENABLED;POLYSCOPE_BACKEND_OPENGL3_GLFW_ENABLED;POLYSCOPE_BACKEND_OPENGL_MOCK_ENABLED;NOMINMAX;GLM_ENABLE_EXPERIMENTAL;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\..\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\imgui;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\custom_backends;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\implot;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\ImGuizmo;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glm;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glfw\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glad\src\..\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\stb\.;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\json\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\MarchingCubeCpp\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\IconFontCppHeaders\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\..\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\imgui;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\custom_backends;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\implot;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\imgui\ImGuizmo;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glm;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glfw\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glad\src\..\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\stb\.;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\json\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\MarchingCubeCpp\include;C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\IconFontCppHeaders\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/KENDY/Desktop/TDOA i GA/polyscope/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/KENDY/Desktop/TDOA i GA" "-BC:/Users/KENDY/Desktop/TDOA i GA/build" --check-stamp-file "C:/Users/KENDY/Desktop/TDOA i GA/build/polyscope/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\KENDY\Desktop\TDOA i GA\build\polyscope\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/KENDY/Desktop/TDOA i GA/polyscope/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/KENDY/Desktop/TDOA i GA" "-BC:/Users/KENDY/Desktop/TDOA i GA/build" --check-stamp-file "C:/Users/KENDY/Desktop/TDOA i GA/build/polyscope/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\KENDY\Desktop\TDOA i GA\build\polyscope\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/KENDY/Desktop/TDOA i GA/polyscope/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/KENDY/Desktop/TDOA i GA" "-BC:/Users/KENDY/Desktop/TDOA i GA/build" --check-stamp-file "C:/Users/KENDY/Desktop/TDOA i GA/build/polyscope/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\KENDY\Desktop\TDOA i GA\build\polyscope\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/KENDY/Desktop/TDOA i GA/polyscope/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/KENDY/Desktop/TDOA i GA" "-BC:/Users/KENDY/Desktop/TDOA i GA/build" --check-stamp-file "C:/Users/KENDY/Desktop/TDOA i GA/build/polyscope/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\KENDY\Desktop\TDOA i GA\build\polyscope\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\polyscope.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\options.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\internal.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\state.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\structure.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\group.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\utilities.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\view.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\screenshot.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\messages.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\pick.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\widget.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\engine.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\color_maps.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\ground_plane.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\materials.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\initialize_backend.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\shader_builder.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\managed_buffer.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\templated_buffers.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\disjoint_sets.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\file_helpers.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\camera_parameters.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\color_bar.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\persistent_value.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\color_management.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\transformation_gizmo.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\slice_plane.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\weak_handle.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\marching_cubes.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\elementary_geometry.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\point_cloud.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\point_cloud_color_quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\point_cloud_scalar_quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\point_cloud_vector_quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\point_cloud_parameterization_quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\surface_mesh.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\surface_color_quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\surface_scalar_quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\surface_vector_quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\surface_parameterization_quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\curve_network.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\curve_network_color_quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\curve_network_scalar_quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\curve_network_vector_quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\volume_mesh.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\volume_mesh_color_quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\volume_mesh_scalar_quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\volume_mesh_vector_quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\volume_grid.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\volume_grid_scalar_quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\sparse_volume_grid.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\sparse_volume_grid_scalar_quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\sparse_volume_grid_color_quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\camera_view.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\simple_triangle_mesh.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\floating_quantity_structure.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\floating_quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\image_quantity_base.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\scalar_image_quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\color_image_quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render_image_quantity_base.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\depth_render_image_quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\color_render_image_quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\scalar_render_image_quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\raw_color_render_image_quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\raw_color_alpha_render_image_quantity.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\imgui_config.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\fullscreen_artist.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\bindata\bindata_font_lato_regular.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\bindata\bindata_font_cousine_regular.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\bindata\bindata_font_lucide_icons.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\bindata\concrete_seamless.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\bindata\bindata_clay.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\bindata\bindata_wax.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\bindata\bindata_candy.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\bindata\bindata_flat.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\bindata\bindata_mud.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\bindata\bindata_ceramic.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\bindata\bindata_jade.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\bindata\bindata_normal.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\gl_engine.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\gl_engine_glfw.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\gl_engine_egl.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\mock_opengl\mock_gl_engine.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\texture_draw_shaders.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\lighting_shaders.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\grid_shaders.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\ground_plane_shaders.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\gizmo_shaders.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\histogram_shaders.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\surface_mesh_shaders.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\volume_mesh_shaders.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\vector_shaders.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\sphere_shaders.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\ribbon_shaders.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\cylinder_shaders.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\rules.cpp" />
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\common.cpp" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\affine_remapper.h" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\affine_remapper.ipp">
+    </None>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\camera_parameters.h" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\camera_parameters.ipp">
+    </None>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\camera_view.h" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\camera_view.ipp">
+    </None>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\check_invalid_values.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\color_bar.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\color_management.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\color_image_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\color_render_image_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\colors.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\color_quantity.h" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\color_quantity.ipp">
+    </None>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\combining_hash_functions.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\context.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\curve_network.h" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\curve_network.ipp">
+    </None>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\curve_network_color_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\curve_network_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\curve_network_scalar_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\curve_network_vector_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\disjoint_sets.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\depth_render_image_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\elementary_geometry.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\file_helpers.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\floating_quantity_structure.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\floating_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\floating_quantities.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\group.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\image_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\imgui_config.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\implicit_helpers.h" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\implicit_helpers.ipp">
+    </None>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\messages.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\numeric_helpers.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\options.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\parameterization_quantity.h" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\parameterization_quantity.ipp">
+    </None>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\persistent_value.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\pick.h" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\pick.ipp">
+    </None>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\point_cloud.h" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\point_cloud.ipp">
+    </None>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\point_cloud_color_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\point_cloud_scalar_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\point_cloud_parameterization_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\point_cloud_vector_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\polyscope.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\raw_color_render_image_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\render\color_maps.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\render\engine.h" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\render\engine.ipp">
+    </None>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\render\ground_plane.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\render\managed_buffer.h" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\render\managed_buffer.ipp">
+    </None>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\render\material_defs.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\render\materials.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\render_image_quantity_base.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\scaled_value.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\scalar_quantity.h" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\scalar_quantity.ipp">
+    </None>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\screenshot.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\simple_triangle_mesh.h" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\simple_triangle_mesh.ipp">
+    </None>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\slice_plane.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\standardize_data_array.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\structure.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\surface_color_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\surface_mesh.h" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\surface_mesh.ipp">
+    </None>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\surface_mesh_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\surface_parameterization_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\surface_scalar_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\surface_vector_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\texture_map_quantity.h" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\texture_map_quantity.ipp">
+    </None>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\types.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\utilities.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\view.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\vector_quantity.h" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\vector_quantity.ipp">
+    </None>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\volume_mesh.h" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\volume_mesh.ipp">
+    </None>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\volume_mesh_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\volume_mesh_scalar_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\volume_mesh_color_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\volume_mesh_vector_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\volume_grid.h" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\volume_grid.ipp">
+    </None>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\volume_grid_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\volume_grid_scalar_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\sparse_volume_grid.h" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\sparse_volume_grid.ipp">
+    </None>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\sparse_volume_grid_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\sparse_volume_grid_scalar_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\sparse_volume_grid_color_quantity.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\weak_handle.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\render\opengl\gl_engine_glfw.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\render\opengl\shaders\common.h" />
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\render\mock_opengl\mock_gl_engine.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\KENDY\Desktop\TDOA i GA\build\ZERO_CHECK.vcxproj">
+      <Project>{369A3E55-437A-3E38-A66D-ECC7CFAFF76C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\KENDY\Desktop\TDOA i GA\build\polyscope\deps\glad\src\glad.vcxproj">
+      <Project>{C4FCEEC0-B8C2-36D3-9548-4AB1BFD1A898}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\KENDY\Desktop\TDOA i GA\build\polyscope\deps\glfw\src\glfw.vcxproj">
+      <Project>{F01A49A8-F29A-3F01-99DE-4C6115FA8C0A}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\KENDY\Desktop\TDOA i GA\build\polyscope\deps\glm\glm\glm.vcxproj">
+      <Project>{AF15297E-5A5E-3C50-9177-0584711229E7}</Project>
+      <Name>glm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\KENDY\Desktop\TDOA i GA\build\polyscope\deps\imgui\imgui.vcxproj">
+      <Project>{BF95B3B2-B25E-380B-8713-87B44D32E318}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\KENDY\Desktop\TDOA i GA\build\polyscope\deps\stb\stb.vcxproj">
+      <Project>{0B7F42DD-ADD1-3E13-B2D2-E7F6A92E4443}</Project>
+      <Name>stb</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

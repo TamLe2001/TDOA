@@ -1,0 +1,588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\polyscope.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\options.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\internal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\state.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\structure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\group.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\view.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\screenshot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\messages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\pick.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\color_maps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\ground_plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\materials.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\initialize_backend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\shader_builder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\managed_buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\templated_buffers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\disjoint_sets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\file_helpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\camera_parameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\color_bar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\persistent_value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\color_management.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\transformation_gizmo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\slice_plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\weak_handle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\marching_cubes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\elementary_geometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\point_cloud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\point_cloud_color_quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\point_cloud_scalar_quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\point_cloud_vector_quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\point_cloud_parameterization_quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\surface_mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\surface_color_quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\surface_scalar_quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\surface_vector_quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\surface_parameterization_quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\curve_network.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\curve_network_color_quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\curve_network_scalar_quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\curve_network_vector_quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\volume_mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\volume_mesh_color_quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\volume_mesh_scalar_quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\volume_mesh_vector_quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\volume_grid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\volume_grid_scalar_quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\sparse_volume_grid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\sparse_volume_grid_scalar_quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\sparse_volume_grid_color_quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\camera_view.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\simple_triangle_mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\floating_quantity_structure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\floating_quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\image_quantity_base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\scalar_image_quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\color_image_quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render_image_quantity_base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\depth_render_image_quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\color_render_image_quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\scalar_render_image_quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\raw_color_render_image_quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\raw_color_alpha_render_image_quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\imgui_config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\fullscreen_artist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\bindata\bindata_font_lato_regular.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\bindata\bindata_font_cousine_regular.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\bindata\bindata_font_lucide_icons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\bindata\concrete_seamless.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\bindata\bindata_clay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\bindata\bindata_wax.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\bindata\bindata_candy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\bindata\bindata_flat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\bindata\bindata_mud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\bindata\bindata_ceramic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\bindata\bindata_jade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\bindata\bindata_normal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\gl_engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\gl_engine_glfw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\gl_engine_egl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\mock_opengl\mock_gl_engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\texture_draw_shaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\lighting_shaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\grid_shaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\ground_plane_shaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\gizmo_shaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\histogram_shaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\surface_mesh_shaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\volume_mesh_shaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\vector_shaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\sphere_shaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\ribbon_shaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\cylinder_shaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\rules.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\render\opengl\shaders\common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\affine_remapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\camera_parameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\camera_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\check_invalid_values.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\color_bar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\color_management.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\color_image_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\color_render_image_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\colors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\color_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\combining_hash_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\curve_network.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\curve_network_color_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\curve_network_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\curve_network_scalar_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\curve_network_vector_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\disjoint_sets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\depth_render_image_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\elementary_geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\file_helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\floating_quantity_structure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\floating_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\floating_quantities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\group.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\image_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\imgui_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\implicit_helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\messages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\numeric_helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\parameterization_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\persistent_value.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\pick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\point_cloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\point_cloud_color_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\point_cloud_scalar_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\point_cloud_parameterization_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\point_cloud_vector_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\polyscope.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\raw_color_render_image_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\render\color_maps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\render\engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\render\ground_plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\render\managed_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\render\material_defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\render\materials.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\render_image_quantity_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\scaled_value.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\scalar_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\screenshot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\simple_triangle_mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\slice_plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\standardize_data_array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\structure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\surface_color_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\surface_mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\surface_mesh_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\surface_parameterization_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\surface_scalar_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\surface_vector_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\texture_map_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\vector_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\volume_mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\volume_mesh_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\volume_mesh_scalar_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\volume_mesh_color_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\volume_mesh_vector_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\volume_grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\volume_grid_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\volume_grid_scalar_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\sparse_volume_grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\sparse_volume_grid_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\sparse_volume_grid_scalar_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\sparse_volume_grid_color_quantity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\weak_handle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\render\opengl\gl_engine_glfw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\render\opengl\shaders\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\render\mock_opengl\mock_gl_engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\affine_remapper.ipp" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\camera_parameters.ipp" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\camera_view.ipp" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\color_quantity.ipp" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\curve_network.ipp" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\implicit_helpers.ipp" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\parameterization_quantity.ipp" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\pick.ipp" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\point_cloud.ipp" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\render\engine.ipp" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\render\managed_buffer.ipp" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\scalar_quantity.ipp" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\simple_triangle_mesh.ipp" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\surface_mesh.ipp" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\texture_map_quantity.ipp" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\vector_quantity.ipp" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\volume_mesh.ipp" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\volume_grid.ipp" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\include\polyscope\sparse_volume_grid.ipp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7AF24276-7BF3-3D50-9B56-05D812DB2D76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{342CD1CF-66CB-368E-8A55-4C165056CF85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

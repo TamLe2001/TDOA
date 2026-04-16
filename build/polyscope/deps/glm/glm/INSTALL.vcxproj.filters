@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\KENDY\Desktop\TDOA i GA\build\CMakeFiles\5d6c956b356c4b44991fb9fa6ae5343e\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{42DFE1EB-5CCB-3183-BC56-77962D22A175}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

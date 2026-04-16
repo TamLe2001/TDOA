@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\KENDY\Desktop\TDOA i GA\build\CMakeFiles\78ad478791caa1589d25caed9277bc0c\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glfw\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glfw\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\polyscope\deps\glfw\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Users\KENDY\Desktop\TDOA i GA\build\polyscope\deps\glfw\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{42DFE1EB-5CCB-3183-BC56-77962D22A175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7AF24276-7BF3-3D50-9B56-05D812DB2D76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
