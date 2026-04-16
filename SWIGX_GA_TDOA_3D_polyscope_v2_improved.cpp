@@ -259,10 +259,10 @@ static void updateSceneGeometry() {
     gApp.psTarget->updatePointPositions(std::vector<glm::vec3>{toGlm(gApp.sim.target)});
 
     if (gApp.sim.hasPair) {
-        gApp.psEstimate ->updatePointPositions({toGlm(gApp.sim.estimate )});
-        gApp.psEstimate2->updatePointPositions({toGlm(gApp.sim.estimate2)});
+        gApp.psEstimate ->updatePointPositions(std::vector<glm::vec3>{toGlm(gApp.sim.estimate )});
+        gApp.psEstimate2->updatePointPositions(std::vector<glm::vec3>{toGlm(gApp.sim.estimate2)});
         gApp.psEstimateLink->updateNodePositions(
-            {toGlm(gApp.sim.estimate), toGlm(gApp.sim.estimate2)});
+            std::vector<glm::vec3>{toGlm(gApp.sim.estimate), toGlm(gApp.sim.estimate2)});
         gApp.psEstimate ->setEnabled(true);
         gApp.psEstimate2->setEnabled(true);
         gApp.psEstimateLink->setEnabled(true);
@@ -439,7 +439,7 @@ int main() {
     std::vector<std::array<size_t,2>> linkEdges{{{0, 1}}};
     gApp.psEstimateLink = polyscope::registerCurveNetwork("Estimate Link", linkNodes, linkEdges);
     gApp.psEstimateLink->setColor(glm::vec3{0.98f, 0.45f, 0.12f});
-    gApp.psEstimateLink->setRadius(0.002, true);
+    gApp.psEstimateLink->setRadius(0.002f, true);
 
     gApp.sim.solveTDOA();
     updateSceneGeometry();
