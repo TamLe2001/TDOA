@@ -15,7 +15,7 @@
 #include <cmath>
 #include <limits>
 #include <optional>
-#include <string>   // required for std::string in AppState
+#include <string>
 #include <utility>
 #include <vector>
 
@@ -38,14 +38,11 @@ struct Vec3 {
     Vec3 operator+(const Vec3& o) const { return {x + o.x, y + o.y, z + o.z}; }
     Vec3 operator-(const Vec3& o) const { return {x - o.x, y - o.y, z - o.z}; }
     Vec3 operator*(double s)      const { return {x * s,   y * s,   z * s  }; }
-
-    // FIX: guard against division by zero
     Vec3 operator/(double s) const {
         assert(std::fabs(s) > 1e-300 && "Vec3 division by zero");
         return {x / s, y / s, z / s};
     }
 
-    // IMPROVEMENT: convenience helpers
     double lengthSq() const { return x*x + y*y + z*z; }
     double length()   const { return std::sqrt(lengthSq()); }
 
