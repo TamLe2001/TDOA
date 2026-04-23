@@ -155,16 +155,13 @@ struct Simulator {
     double y = 50.0;
     double z = 1.0;
 
-    // FIX: brace-init avoids uninitialized reads before first solveTDOA
     Vec3 target  {30.0, 50.0, 1.0};
     Vec3 estimate {30.0, 50.0, 1.0};
     Vec3 estimate2{30.0, 50.0, 1.0};
 
     bool   hasPair   = false;
-    double bestScale = 0.0; // FIX: was misleadingly 1.0 when hasPair=false
+    double bestScale = 0.0; 
     double pairGap   = std::numeric_limits<double>::infinity();
-
-    // IMPROVEMENT: expose threshold so the UI can tune it live
     double dthres = 0.25;
 
     void syncTargetFromXYZ() { target = Vec3{x, y, z}; }
@@ -173,7 +170,7 @@ struct Simulator {
     void applyAxisThresholdStep(double roll, double pitch, double heave, double step) {
         if (roll  >  0.2) x += step;
         if (roll  < -0.2) x -= step;
-        if (pitch >  0.2) y -= step; // intentional sign flip matching Python
+        if (pitch >  0.2) y -= step;
         if (pitch < -0.2) y += step;
         if (heave >  0.2) z -= step;
         if (heave < -0.2) z += step;
@@ -190,7 +187,6 @@ struct Simulator {
         syncTargetFromXYZ();
         const auto trueD = distancesFrom(target);
 
-        // FIX: reset to "no result" state
         hasPair   = false;
         bestScale = 0.0;
         pairGap   = std::numeric_limits<double>::infinity();
