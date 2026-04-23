@@ -268,7 +268,7 @@ struct AppState {
 };
 
 static AppState gApp;
-static void updateSceneGeometry(); // forward declaration
+static void updateSceneGeometry(); 
 
 static void moveTargetX(double delta) { gApp.sim.x += delta; gApp.sim.solveTDOA(); updateSceneGeometry(); }
 static void moveTargetY(double delta) { gApp.sim.y += delta; gApp.sim.solveTDOA(); updateSceneGeometry(); }
@@ -279,19 +279,14 @@ static void updateSceneGeometry() {
     gApp.psTarget->updatePointPositions(std::vector<glm::vec3>{toGlm(gApp.sim.target)});
 
     if (gApp.sim.hasPair) {
-        // FIX (C2672): explicit std::vector<glm::vec3> — braced-init-list cannot
-        //              deduce the template argument V for updatePointPositions(const V&)
         gApp.psEstimate ->updatePointPositions(std::vector<glm::vec3>{toGlm(gApp.sim.estimate )});
         gApp.psEstimate2->updatePointPositions(std::vector<glm::vec3>{toGlm(gApp.sim.estimate2)});
-        // FIX (C2672): same fix for updateNodePositions
         gApp.psEstimateLink->updateNodePositions(
             std::vector<glm::vec3>{toGlm(gApp.sim.estimate), toGlm(gApp.sim.estimate2)});
         gApp.psEstimate ->setEnabled(true);
         gApp.psEstimate2->setEnabled(true);
         gApp.psEstimateLink->setEnabled(true);
     } else {
-        // Keep the estimate markers visible even when no valid pair is found.
-        // This makes it easier to verify the scene is rendering and the solver is updating.
         gApp.psEstimate->updatePointPositions(std::vector<glm::vec3>{toGlm(gApp.sim.target)});
         gApp.psEstimate2->updatePointPositions(std::vector<glm::vec3>{toGlm(gApp.sim.target)});
         gApp.psEstimate ->setEnabled(true);
@@ -309,8 +304,6 @@ static void centerViewOnTarget() {
 
 // ---------------------------------------------------------------------------
 // Keyboard movement
-// FIX: accumulate per-axis deltas so pressing two bindings for the same axis
-// in one frame does NOT move 2×step.
 // ---------------------------------------------------------------------------
 static void applyKeyboardMovement() {
     if (!gApp.keyboardControlsEnabled) return;
@@ -443,7 +436,6 @@ int main() {
 
     gApp.psMics = polyscope::registerPointCloud("Mics", micPoints);
     gApp.psMics->setPointColor(glm::vec3{0.12f, 0.45f, 0.95f});
-    // FIX: absolute radius (false) — relative mode inflated mics in large scenes
     gApp.psMics->setPointRadius(0.18, false);
 
     // Target
@@ -453,24 +445,20 @@ int main() {
     gApp.psTarget->setPointRadius(0.75, false);
     gApp.psTarget->setEnabled(true);
 
-    // Estimate 1
     gApp.psEstimate = polyscope::registerPointCloud("Estimate 1",
         std::vector<glm::vec3>{toGlm(gApp.sim.estimate)});
     gApp.psEstimate->setPointColor(glm::vec3{1.00f, 0.10f, 0.10f});
     gApp.psEstimate->setPointRadius(0.65, false);
 
-    // Estimate 2
     gApp.psEstimate2 = polyscope::registerPointCloud("Estimate 2",
         std::vector<glm::vec3>{toGlm(gApp.sim.estimate2)});
     gApp.psEstimate2->setPointColor(glm::vec3{1.00f, 0.10f, 0.10f});
     gApp.psEstimate2->setPointRadius(0.65, false);
 
-    // Link line between estimates
     std::vector<glm::vec3> linkNodes{toGlm(gApp.sim.estimate), toGlm(gApp.sim.estimate2)};
     std::vector<std::array<size_t, 2>> linkEdges{{{0, 1}}};
     gApp.psEstimateLink = polyscope::registerCurveNetwork("Estimate Link", linkNodes, linkEdges);
     gApp.psEstimateLink->setColor(glm::vec3{0.98f, 0.45f, 0.12f});
-    // FIX (C4305): float literal avoids double->float truncation warning
     gApp.psEstimateLink->setRadius(0.002f, true);
 
     gApp.sim.solveTDOA();
