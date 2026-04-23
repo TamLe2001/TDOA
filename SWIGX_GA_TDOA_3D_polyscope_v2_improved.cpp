@@ -139,16 +139,19 @@ static std::optional<std::pair<Vec3, Vec3>> pointPairToEndPoints(
 // Simulator
 // ---------------------------------------------------------------------------
 struct Simulator {
-    // 8-mic cube: bottom face z=0, top face z=2
+    // 8-mic cube: enlarged footprint to increase sensor area
+    static constexpr double kSensorHalfSpan = 10;
+    static constexpr double kSensorTopZ = 10.0;
+
     std::array<Vec3, 8> mics{{
-        Vec3{+1.0, +1.0, 0.0}, // 0 = A
-        Vec3{-1.0, +1.0, 0.0}, // 1 = B
-        Vec3{-1.0, -1.0, 0.0}, // 2 = C
-        Vec3{+1.0, -1.0, 0.0}, // 3 = D
-        Vec3{+1.0, +1.0, 2.0}, // 4 = A2
-        Vec3{-1.0, +1.0, 2.0}, // 5 = B2
-        Vec3{-1.0, -1.0, 2.0}, // 6 = C2
-        Vec3{+1.0, -1.0, 2.0}  // 7 = D2
+        Vec3{+kSensorHalfSpan, +kSensorHalfSpan, 0.0},         // 0 = A
+        Vec3{-kSensorHalfSpan, +kSensorHalfSpan, 0.0},         // 1 = B
+        Vec3{-kSensorHalfSpan, -kSensorHalfSpan, 0.0},         // 2 = C
+        Vec3{+kSensorHalfSpan, -kSensorHalfSpan, 0.0},         // 3 = D
+        Vec3{+kSensorHalfSpan, +kSensorHalfSpan, kSensorTopZ}, // 4 = A2
+        Vec3{-kSensorHalfSpan, +kSensorHalfSpan, kSensorTopZ}, // 5 = B2
+        Vec3{-kSensorHalfSpan, -kSensorHalfSpan, kSensorTopZ}, // 6 = C2
+        Vec3{+kSensorHalfSpan, -kSensorHalfSpan, kSensorTopZ}  // 7 = D2
     }};
 
     double x = 30.0;
